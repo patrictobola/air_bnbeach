@@ -1,13 +1,13 @@
 <script setup>
-import NavBar from './layout/NavBar.vue';
+import HeaderSection from './HeaderSection.vue';
 </script>
 
 <template>
-  <NavBar />
+  <HeaderSection />
 </template>
 
 <style scoped>
 .read-the-docs {
   color: #888;
 }
-</style>
+</style>./HeaderSection.vue
