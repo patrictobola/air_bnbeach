@@ -10,4 +10,4 @@ import HeaderSection from './HeaderSection.vue';
 .read-the-docs {
   color: #888;
 }
-</style>./HeaderSection.vue
+</style>
