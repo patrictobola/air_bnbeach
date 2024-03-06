@@ -18,4 +18,9 @@ class Listing extends Model
         'bathrooms',
         'bedrooms'
     ];
+
+    public function tags()
+    {
+        return $this->belongsToMany((Tag::class));
+    }
 }
