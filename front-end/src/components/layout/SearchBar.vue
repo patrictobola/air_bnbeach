@@ -13,14 +13,13 @@ export default {
 </script>
 
 <template>
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center d-none d-md-flex">
 
         <div class="search-bar-container d-flex">
             <form action="#" class="d-flex">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Dove</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                    <label for="where-field" class="form-label">Dove</label>
+                    <input type="text" class="form-control" id="where-field" placeholder="Dove vuoi andare">
                 </div>
                 <div class="">
                     <label for="check-in" class="form-label">Check-in</label>

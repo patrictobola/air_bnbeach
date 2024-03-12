@@ -12,7 +12,7 @@ const iconPath = new URL('/public/airbnb.png', import.meta.url)
             </form>
             <button class="btn btn-outline-success rounded-pill"><span class="fas fa-filter"></span></button>
         </div>
-        <div class="container-fluid justify-content-between">
+        <div class="container-fluid justify-content-between d-none d-md-flex">
             <a href="#"><img :src="iconPath" alt="MainIcon"></a>
             <div class="">
                 <a href="#">Soggiorni</a>
