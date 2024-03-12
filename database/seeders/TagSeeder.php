@@ -14,7 +14,7 @@ class TagSeeder extends Seeder
      */
     public function run(): void
     {
-        $labels = ['Wi-Fi', 'Kitchen', 'Parking', 'Pool', 'Security Cam'];
+        $labels = ['Isole', 'Stanze', 'Camping', 'Pool', 'Camper', 'Polo Nord', 'Golf'];
 
         foreach ($labels as $label) {
             $tag = new Tag();
