@@ -2,6 +2,7 @@ import './style.css'
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
 import quasarLang from 'quasar/lang/it'
+import axios from 'axios'
 
 // Import icon libraries
 import '@quasar/extras/roboto-font/roboto-font.css'
