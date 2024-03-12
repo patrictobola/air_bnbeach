@@ -16,14 +16,41 @@ onMounted(() => {
     <div>
         <ul class="d-flex list-unstyled overflow-x-auto">
             <li v-for="tag in tags">
-                <a :href="tag.id">{{ tag.label }}</a>
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <a :href="tag.id" class="d-flex justify-content-center align-items-center flex-column">
+                        <img :src="tag.image" alt=""><br>
+                        {{ tag.label }}
+                    </a>
+                </div>
             </li>
         </ul>
 
     </div>
 </template>
 <style scoped>
+a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+
+    &:hover {
+        border-bottom: 3px solid rgb(108, 108, 108);
+    }
+}
+
 li {
-    margin: 0 20px;
+    flex: 0 0 calc(100% / 6);
+}
+
+img {
+    height: 30px;
+    margin: 0 auto;
+}
+
+ul {
+    scrollbar-width: none;
+    /* firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer */
 }
 </style>
